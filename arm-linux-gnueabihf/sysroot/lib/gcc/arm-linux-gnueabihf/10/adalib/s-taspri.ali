@@ -1,0 +1,78 @@
+V "GNAT Lib v10"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -gnatn
+A -fPIC
+A -mfloat-abi=hard
+A -mfpu=vfp
+A -mtls-dialect=gnu
+A -marm
+A -march=armv6+fp
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U system.task_primitives%s  s-taspri.ads	771a909a NE OL PR PK
+W system%s		system.ads		system.ali
+W system.os_interface%s	s-osinte.adb		s-osinte.ali
+
+D ada.ads		20200723063517 76789da1 ada%s
+D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200723063517 5ab55268 interfaces%s
+D i-c.ads		20200723063517 5421119b interfaces.c%s
+D system.ads		20200723063517 77e65b42 system%s
+D s-exctab.ads		20200723063517 54135002 system.exception_table%s
+D s-linux.ads		20200723063517 ed0b8aee system.linux%s
+D s-oscons.ads		20210121022135 f5582b90 system.os_constants%s
+D s-osinte.ads		20200723063517 baabc537 system.os_interface%s
+D s-parame.ads		20200723063517 48ec542b system.parameters%s
+D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
+D s-taspri.ads		20200723063517 ba570eef system.task_primitives%s
+D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
+G a e
+G c Z s s [lockIP system__task_primitives 78 9 none]
+G c Z s s [suspension_objectIP system__task_primitives 83 9 none]
+G c Z s s [private_dataIP system__task_primitives 100 9 none]
+X 4 i-c.ads
+45M9*unsigned_long
+X 5 system.ads
+37K9*System 157e11 12|42r6 44r9 67r28 76r25 80r20 96r20 101r24 109r21 114r20
+. 121r5
+67M9*Address 12|67r35 109r28
+X 9 s-osinte.ads
+46K16*OS_Interface 683e24 12|42w13 76r32 80r27 96r27 101r31 114r27
+296M9*pthread_t<4|45M9> 12|101r44
+302R9*pthread_mutex_t 659e14 12|76r45
+303R9*pthread_rwlock_t 671e14 12|80r40
+304R9*pthread_cond_t 677e14 12|96r40 114r40
+X 12 s-taspri.ads
+44K16*Task_Primitives 5|37k9 12|76E9 121l12 121e27
+47R9*Lock 78c9 81e14
+50R9*RTS_Lock<9|302R9> 76c9 79r20 93r19 117r19
+55R9*Suspension_Object 83c9 98e14
+58P9*Task_Body_Access
+62R9*Private_Data 100c9 119e14
+67M12*Task_Address{5|67M9}
+68N4*Task_Address_Size
+71N4*Alternate_Stack_Size
+79r7*WO{50R9}
+80r7*RW{9|303R9}
+84b7*State{boolean}
+90b7*Waiting{boolean}
+93r7*L{50R9}
+96r7*CV{9|304R9}
+101m7*Thread{9|296M9}
+109m7*LWP{5|67M9}
+114r7*CV{9|304R9}
+117r7*L{50R9}
+

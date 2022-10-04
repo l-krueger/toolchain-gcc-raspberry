@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<SysrootInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UpdateTime>2021-11-15T19:02:14.9833321-08:00</UpdateTime>
+  <HostNameOfOrigin>raspberrypi</HostNameOfOrigin>
+  <SynchronizedDirectories>
+    <string>/lib</string>
+    <string>/usr/include</string>
+    <string>/usr/lib</string>
+    <string>/usr/local/include</string>
+    <string>/usr/local/lib</string>
+  </SynchronizedDirectories>
+</SysrootInfo>

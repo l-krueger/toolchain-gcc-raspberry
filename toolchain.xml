@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Toolchain xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ToolchainName>Raspberry PI</ToolchainName>
+  <ToolchainType>Linux</ToolchainType>
+  <PathDetectionKeyStrip>0</PathDetectionKeyStrip>
+  <GNUTargetID>arm-linux-gnueabihf</GNUTargetID>
+  <ToolchainID>com.visualgdb.raspberry_pi</ToolchainID>
+  <BinaryDirectory>bin</BinaryDirectory>
+  <Prefix>arm-linux-gnueabihf-</Prefix>
+  <Make>make.exe</Make>
+  <IsCygwinBased>false</IsCygwinBased>
+  <GCCVersion>10.2.1</GCCVersion>
+  <GDBVersion>10.1</GDBVersion>
+  <BinutilsVersion>2.35.2</BinutilsVersion>
+  <LIBCVersion></LIBCVersion>
+  <Revision>1</Revision>
+  <RelativeSysrootPath>arm-linux-gnueabihf\sysroot</RelativeSysrootPath>
+  <Comments>Raspbian Bullseye</Comments>
+  <CompatibleSDCardImage>https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf-full.zip</CompatibleSDCardImage>
+  <TargetVersionCheckCommand>lsb_release -c</TargetVersionCheckCommand>
+  <TargetVersionCheckRegex>Codename:[ \t]+bullseye</TargetVersionCheckRegex>
+</Toolchain>

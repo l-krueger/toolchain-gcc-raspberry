@@ -1,0 +1,31 @@
+V "GNAT Lib v10"
+A -gnatwa
+A -nostdinc
+A -O2
+A -Wextra
+A -Wall
+A -g
+A -gnatp
+A -gnatg
+A -gnatn
+A -fPIC
+A -mfloat-abi=hard
+A -mfpu=vfp
+A -mtls-dialect=gnu
+A -marm
+A -march=armv6+fp
+P ZX
+
+RN
+
+U system.atomic_operations%s  s-atoope.ads	b0852167 NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20200723063517 77e65b42 system%s
+D s-atoope.ads		20200723063517 c7637a25 system.atomic_operations%s
+G a e
+X 1 system.ads
+37K9*System 157e11 2|32r9 35r5
+X 2 s-atoope.ads
+32K16*Atomic_Operations 1|37k9 2|35l12 35e29
+
